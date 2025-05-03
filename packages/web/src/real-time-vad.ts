@@ -169,8 +169,8 @@ export class MicVAD {
 
   private constructor(
     public options: RealTimeVADOptions,
-    private audioContext: AudioContext,
-    private stream: MediaStream,
+    public audioContext: AudioContext,
+    public stream: MediaStream,
     private audioNodeVAD: AudioNodeVAD,
     private sourceNode: MediaStreamAudioSourceNode,
     private listening = false
