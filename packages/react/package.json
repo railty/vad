@@ -12,8 +12,8 @@
     "offline-speech-recognition",
     "react"
   ],
-  "homepage": "https://github.com/ricky0123/vad",
-  "version": "0.0.30",
+  "homepage": "https://github.com/railty/vad",
+  "version": "0.0.54",
   "license": "ISC",
   "main": "dist/index.js",
   "devDependencies": {
@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "onnxruntime-web": "1.14.0",
-    "@railty/vad-web": "0.0.24"
+    "@railty/vad-web": "0.0.54"
   },
   "peerDependencies": {
     "react": "18",
@@ -29,6 +29,8 @@
   },
   "scripts": {
     "build": "tsc",
+    "build1": "tsc --showConfig",
+    "build2": "tsc --help",
     "clean": "rm -rf dist",
     "publish": "npm publish --access public"
   }

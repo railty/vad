@@ -152,6 +152,7 @@ export function useMicVAD(options: Partial<ReactRealTimeVADOptions>) {
     pause,
     start,
     toggle,
+    vad
   }
 }
 
